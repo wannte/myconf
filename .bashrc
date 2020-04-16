@@ -165,3 +165,4 @@ if [ -f /tmp/.lastdir ]
     then cd `cat /tmp/.lastdir`
 fi 
 export PATH=~/.gem/ruby/2.7.0/bin:$PATH
+alias config='/usr/bin/git --git-dir=/home/tw/.myconf/ --work-tree=/home/tw'
