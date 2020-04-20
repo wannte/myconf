@@ -1,4 +1,5 @@
 call plug#begin('~/.vim/plugged')
+
 Plug 'edkolev/tmuxline.vim'
 Plug 'preservim/nerdtree'
 Plug 'vim-airline/vim-airline'
@@ -11,4 +12,13 @@ set tabstop=4
 set shiftwidth=4
 
 let g:airline_theme='luna'
+let g:tmuxline_preset = {
+      \'a'    : '#S',
+      \'b'    : '#W',
+      \'c'    : '#(whoami)',
+      \'win'  : '#I #W',
+      \'cwin' : '#I #W',
+      \'x'    : '%a',
+      \'y'    : '#W %R',
+      \'z'    : '#H'}
 map <C-n> :NERDTreeToggle<CR>
