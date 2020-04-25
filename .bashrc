@@ -148,6 +148,7 @@ alias tkill="t kill-session"
 alias hg="history | grep"
 alias copy="xclip -sel clip"
 alias d="docker"
+alias da="docker attach"
 alias ll="ls -al"
 alias chrome="chromium"
 function mkcdir ()
